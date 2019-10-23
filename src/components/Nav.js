@@ -1,14 +1,16 @@
 import React from 'react';
+import '../styles/App.css';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
  return (
  <div className="NavBar">
+     
      <ul className="PageLinks">
-        <img className="logo" src='../images/logo.jpg'/>
-        <a href className="FactsPage">Facts </a> 
-        <a href className="Inspiration"> Inspiration </a>
-        <a href className="PlantTree"> Plant Tree </a>
-        <a className="Login"> Login </a>
+        <img className="logo" alt="logo" src={require('../img/Logo/Logo.png')} />  
+        <Link className="FAQ" to="/"> Facts </Link> 
+        <Link className="Inspiration" to="/Inspiration"> Inspiration </Link>
+        <Link className="Plant-a-tree" to="/Tree"> Plant Tree </Link>
      </ul>
  </div>
 )
