@@ -4,6 +4,7 @@ import Facts from './Facts'
 import Inspiration from './Inspiration';
 import Tree from './Tree'
 import '../styles/App.css'
+import '../styles/Form.css'
 import { Switch, Route } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 import Form from "react-jsonschema-form";
@@ -45,11 +46,7 @@ render() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        <Switch>
-          <Route exact path="/" component={Facts} /> 
-          <Route exact path="/Inspiration" component={Inspiration} />
-          <Route exact path="/Tree" component={Tree} />
-        </Switch>
+     
       </BrowserRouter>
       <Form schema={schema}
           ui={uiSchema}
@@ -57,10 +54,7 @@ render() {
           onError={log("errors")} 
       /> 
       <h4>
-       {this.state.showMessage ? `Hello ${this.state.name} the volume of carbon the clothing you bought this year is ${this.state.carbon} KG C02` : ''}
-      </h4>
-      <h4>
-       {this.state.showMessage ? `Hello ${this.state.name} the volume of water the clothing you bought this year is ${this.state.water} Litres` : ''}
+       {this.state.showMessage ? `Hello ${this.state.name} the clothing you bought this year created ${this.state.carbon} KG of C02 and used ${this.state.water} Litres of water in production.` : ''}
       </h4>
     </div>
   );

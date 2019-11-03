@@ -17,5 +17,5 @@ function calculateWater (jeans, woolJumper, polyesterDress, cottonTShirt, cotton
     (Number(polyesterCoat) * polyesterCoatWater) +
     (Number(rubberShoes) * rubberShoesWater)
 );
-return(sum);
+return(Math.round(sum));
 }
