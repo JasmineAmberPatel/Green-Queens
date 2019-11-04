@@ -1,0 +1,178 @@
+.Plant-a-Tree {
+  height: auto;
+  max-width: 100%;
+  display:block;
+  }
+  .RectangleAPI {
+    width: 524px;
+    height: 545px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    position: fixed;
+    top:205px;
+    left: 978px;
+  }
+  .I {
+    width: 524px;
+    height: 165px;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #272727;
+    position: fixed;
+    top:200px;
+    left: 421px;
+  }
+  .I .text-style-1 {
+    color: #2ac653;
+  }
+  .II {
+    width: 513px;
+    height: 88px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #272727;
+    position: fixed;
+    top:402px;
+    left: 421px;
+  }
+
+  .list{
+    list-style-type:disc;
+  }
+  .III {
+    width: 452px;
+    height: 25px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #272727;
+    position: fixed;
+    top:527px;
+    left: 482px;
+  }
+
+  .IV {
+    width: 463px;
+    height: 44px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #272727;
+    position: fixed;
+    top:572px;
+    left: 482px;
+  }
+  .V {
+    width: 452px;
+    height: 25px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #272727;
+    position: fixed;
+    top:644px    ;
+    left: 482px;
+  }
+  .VI {
+    width: 463px;
+    height: 44px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #272727;
+    position: fixed;
+    top:689px;
+    left: 482px;
+  }
+  .ButtonPaT {
+    width: 192px;
+    height: 56px;
+    border-radius: 32.5px;
+    background-color: #2ac653;
+    position: fixed;
+    top:672px;
+    left: 1127px
+    ;
+  }
+  .Plant-a-tree {
+    width: 168px;
+    height: 18px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+  top:691px;
+  left: 1139px;
+  }
+  .page-leaves-left {
+    height: auto;
+    max-width: 100%;
+    display:block;
+    object-fit: contain;
+    transform: rotate(-40deg);
+    position: fixed;
+    top:155px;
+    left: 199px;
+  }
+  .page-leaves-right {
+    height: auto;
+    max-width: 100%;
+    display:block;
+    object-fit: contain;
+    position: fixed;
+    top:202px;
+    left: 1483px;
+  }
+  .page-tree-right {
+    position: absolute;
+    bottom:0;
+    right:240px;
+    top: 219px;
+    height: auto;
+    max-width: 100%;
+    display:block;
+    object-fit: contain;
+  }
+  .page-tree-left {
+
+    height: auto;
+max-width: 100%;
+display:block;
+    
+    object-fit: contain;
+    position: fixed;
+    top:372px;
+    left: 0;
+  }

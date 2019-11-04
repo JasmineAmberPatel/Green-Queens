@@ -1,12 +1,16 @@
 import React from 'react';
 import NavBar from './Nav.js';
+import PlantTree from '../components/PlantTree'
+import Footer from '../components/Footer';
+import '../styles/App.css'
+import '../styles/Footer.css'
+import '../styles/PlantTree.css'
 import Facts from './Facts'
 import Inspiration from './Inspiration';
-import Tree from './Tree'
-import '../styles/App.css'
-import '../styles/Form.css'
 import { Switch, Route } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
+import '../styles/App.css'
+import '../styles/Form.css'
 import Form from "react-jsonschema-form";
 import schema from './FormSchema';
 import uiSchema from './UiSchema';
@@ -46,7 +50,12 @@ render() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
-     
+        <Footer />
+        <Switch>
+          <Route exact path="/" component={Facts} /> 
+          <Route exact path="/PlantTree" component={PlantTree} />
+          <Route exact path="/Inspiration" component={Inspiration} />
+        </Switch>
       </BrowserRouter>
       <Form schema={schema}
           ui={uiSchema}
@@ -62,3 +71,9 @@ render() {
 }
 
 export default App;
+
+
+
+
+
+
