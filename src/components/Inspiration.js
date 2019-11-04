@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 const Inspiration = () => (
   <Fragment>
-    Inspiration Page
+    inspiration
   </Fragment>
 );
 
