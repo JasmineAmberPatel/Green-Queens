@@ -1,0 +1,74 @@
+.Title-Rectangle {
+    height: 507px;
+    background-color: #f5f5f5;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -5;
+    position: relative;
+}
+
+.Title {
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #272727;
+    justify-content: center;
+    display: flex;
+    top: 40vph;
+}
+
+.Photo-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 60vph;
+}
+
+@media (max-width: 800px) {
+    .Photo-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.jumper {
+    width: 200px;
+}
+
+.dress {
+    width: 200px;
+}
+
+.trainer {
+    width: 200px;
+}
+
+.jeans {
+    width: 200px;
+}
+
+.jumper:hover {
+    width: 200px;
+    opacity: 0.25;
+}
+
+.dress:hover {
+    width: 200px;
+    opacity: 0.25;
+}
+
+.trainer:hover {
+    width: 200px;
+    opacity: 0.25;
+}
+
+.jeans:hover {
+    width: 200px;
+    opacity: 0.25;
+}

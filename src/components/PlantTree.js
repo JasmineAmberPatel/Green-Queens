@@ -16,7 +16,7 @@ const PlantTree = () => {
 
                             <img className="page-tree-left" src={require('../img/page-tree-left/page-tree-left.svg')} alt="tree-left"></img>
 
-            <div className="I">Lorem ipsum dolor sit amet, consectetur.</div>
+            <div className="I">Offset your carbon impact. Plant a tree!</div>
             <div className="II">Lorem ipsum dolor sit amet, consectetur adipiscing elit, a. . </div>
             <ul className="list">
                 <li className="III">Lorem ipsum dolor sit amet, consectetur adipiscing elit,. </li>

@@ -4,6 +4,7 @@ import schema from './FormSchema';
 import uiSchema from './UiSchema';
 import calculateCarbon from './CarbonCalculator';
 import calculateWater from './WaterCalculator';
+import ImageCard from './ImageCard';
 
 const log = (type) => console.log.bind(console, type);
 
@@ -34,7 +35,9 @@ calculatedCarbon( data) {
 }
   render() {
     return (
-      <Fragment className="Homepage"> 
+      <Fragment>
+        <ImageCard />
+      <div className="Calculator"> 
         <Form className="rectangle"
               schema={schema}
               ui={uiSchema}
@@ -44,6 +47,7 @@ calculatedCarbon( data) {
           <h4>
            {this.state.showMessage ? `Hello ${this.state.name} the clothing you bought this year created ${this.state.carbon} KG of C02 and used ${this.state.water} Litres of water in production.` : ''}
           </h4>
+      </div>
       </Fragment>
     );
   }
