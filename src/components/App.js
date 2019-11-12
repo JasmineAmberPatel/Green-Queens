@@ -2,12 +2,10 @@ import React from 'react';
 import NavBar from './Nav.js';
 import PlantTree from '../components/PlantTree'
 import Footer from '../components/Footer';
-import '../styles/App.css'
 import '../styles/Footer.css'
 import '../styles/PlantTree.css'
 import { Switch, Route } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
-import '../styles/App.css'
 import '../styles/Form.css'
 import HomePage from './Homepage.js';
 import Questions from './Questions.js';

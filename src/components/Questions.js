@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import FAQ from './FAQ';
-
+import '../styles/Facts.css';
 
 function Questions () {
   const [faqs, setFaqs] = useState([
