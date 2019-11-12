@@ -50,7 +50,8 @@ function Questions () {
   }
 
     return (
-        <div className="Questions"> 
+        <div className="Questions-rectangle">
+            <h1 className="Questions-title">FAQs</h1> 
           <div className="faqs">
             {faqs.map((faq, i) => (
               <FAQ faq={faq} index={i} toggleFAQ={toggleFAQ} />
