@@ -1,25 +1,28 @@
-.NavBar {
-   
-    position: fixed;
-      width: 1920px;
-      height: 100px;
-      box-shadow: 0 16px 14px 0 rgba(0, 0, 0, 0);
-      background-color: #ffffff;
-    
-    
+.NavBar {    
+  height: 12vh;
+  box-shadow: 0 16px 14px 0 rgba(0, 0, 0, 0);
+  background-color: #ffffff;
+  padding: 15px;
 }
+
+@media (max-width: 600px) {
+  .NavBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.PageLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo1 {
-  width: 97px;
-  height: 43px;
   object-fit: contain;
-  position: fixed;
-  top:32px;
-  left: 414px;
 }
 
 .FAQ {
-  width: 57px;
-  height: 22px;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 600;
@@ -27,17 +30,15 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: center;
   color: #272727;
-  position: fixed;
-    top:41px;
-    left: 1063px
-    ;
+  padding: 20px;
+  display: inline-flex;
+  justify-content: flex-end;
+  text-decoration-line: none;
+  margin: 0 30px;
 }
 
-.Inspiration {
-  width: 105px;
-  height: 22px;
+.HomePage {
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 600;
@@ -45,36 +46,45 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: center;
   color: #272727;
-  position: fixed;
-  top:41px;
-  left: 1150px
-
-  ;
+  padding: 20px;
+  display: inline-flex;
+  justify-content: flex-end;
+  text-decoration-line: none;
+  margin: 0 30px;
 }
-.buttonPaT{
-  width: 192px;
-  height: 56px;
+
+.Tree {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  justify-content: flex-end;
+  display: inline-flex;
+  text-decoration-line: none;
+  margin: 0 30px;
+}
+
+.TreeText {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.TreeButton{
   border-radius: 32.5px;
   background-color: #2ac653;
-  position: fixed;
-  top:23px;
-  left: 1309px;
-}
-.PlantaTree {
-  width: 168px;
-  height: 18px;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
-  position: fixed;
-  top:42px;
-  left: 1321px;
+  float: right;
+  width: 192px;
+  height: 56px;
+  justify-content: center;
 }
