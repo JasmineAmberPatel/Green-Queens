@@ -81,3 +81,17 @@
 .jeans:hover {
     opacity: 0.25;
 }
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #272727;
+}
