@@ -10,18 +10,22 @@ const Photos = () => {
             <div className="Photo-cards">  
                 <div className="Photos">
                     <img className="jumper" src={require('../img/Jumper.jpg')} alt="jumper" ></img>
+                    <h4 className="fact">The fast fashion industry produces 97% of our clothes overseas.</h4>
                     <h4 className="caption">Jumpers<br className="space"/><h4 className="heart">♥</h4></h4>
                 </div>
                 <div className="Photos">
                     <img className="dress" src={require('../img/dress.jpg')} alt="dress"></img>
+                    <h4 className="fact">Synthetic fibres from clothing make up 75% of microplastics in the ocean.</h4>
                     <h4 className="caption">Dresses<br className="space"/><h4 className="heart">♥</h4></h4>
                 </div>
                 <div className="Photos">
                     <img className="trainer" src={require('../img/Trainers.jpg')} alt="trainers"></img>
+                    <h4 className="fact">The fast fashion industry emits 1.2 billion tons of CO2 per year.</h4>
                     <h4 className="caption">Shoes<br className="space"/><h4 className="heart">♥</h4></h4>
                 </div>
                 <div className="Photos">
                     <img className="jeans" src={require('../img/Jeans.jpg')} alt="jeans"></img>
+                    <h4 className="fact">The fast fashion industry is responsible for producing 20% of global wastewater.</h4>
                     <h4 className="caption">Jeans<br className="space"/><h4 className="heart">♥</h4></h4>
                 </div>
             </div>
