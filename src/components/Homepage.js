@@ -37,7 +37,11 @@ calculatedCarbon( data) {
     return (
       <Fragment>
         <ImageCard />
-      <div className="Calculator"> 
+        <br/>
+          <div className="calculator-box">
+          <h2 className="calculator-box__heading">Calculate the environmental cost of your clothes</h2>
+        <br />
+          <div className="calculator-box__calculator"> 
         <Form className="rectangle"
               schema={schema}
               ui={uiSchema}
@@ -45,8 +49,9 @@ calculatedCarbon( data) {
               onError={log("errors")} 
           /> 
           <h4>
-           {this.state.showMessage ? `Hello ${this.state.name} the clothing you bought this year created ${this.state.carbon} KG of C02 and used ${this.state.water} Litres of water in production.` : ''}
+           {this.state.showMessage ? `Hello ${this.state.name} the clothing you bought this year created ${this.state.carbon} KG of C02 and used ${this.state.water} Litres of water in production. This amount of C02 would take 1 tree ${Math.round(this.state.carbon/21)} years to offset.` : ''}
           </h4>
+          </div>
       </div>
       </Fragment>
     );

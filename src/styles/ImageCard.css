@@ -7,7 +7,7 @@
 
 .Title {
   font-family: Montserrat;
-  font-size: 53px;
+  font-size: 5rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -16,6 +16,8 @@
   text-align: center;
   color: #272727;
   padding-top: 10vh;
+  display: flex;
+  justify-content: center;
 }
 
 .Photo-cards {
@@ -28,8 +30,23 @@
 
 @media (max-width: 600px) {
     .Photo-cards {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+    }
+    .jumper {
+        width: 70vw;
+    }
+    
+    .dress {
+        width: 70vw;
+    }
+    
+    .trainer {
+        width: 70vw;
+    }
+    
+    .jeans {
+        width: 70vw;
     }
 }
 
@@ -50,21 +67,17 @@
 }
 
 .jumper:hover {
-    width: 200px;
     opacity: 0.25;
 }
 
 .dress:hover {
-    width: 200px;
     opacity: 0.25;
 }
 
 .trainer:hover {
-    width: 200px;
     opacity: 0.25;
 }
 
 .jeans:hover {
-    width: 200px;
     opacity: 0.25;
 }

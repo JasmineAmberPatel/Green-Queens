@@ -1,5 +1,5 @@
 const schema = {
-  title: "The environmental impact of your clothes",
+  title: "How many clothes did you buy this year? Enter the number below.",
   type: "object",
   required: ["name"],
   properties: {
