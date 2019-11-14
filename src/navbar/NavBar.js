@@ -25,7 +25,7 @@ const Navbar = (props) => {
             <Brand />
             <NavLinks style={linkAnimation}>
               <a href="/Homepage">Homepage</a>
-              <a href="/Questions">FAQ</a>
+              <a href="/Questions">Facts</a>
               <a href="/PlantTree">Plant a Tree</a>
             </NavLinks>
             <BurgerWrapper>
