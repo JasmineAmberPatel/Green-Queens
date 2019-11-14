@@ -50,13 +50,11 @@ calculatedCarbon( data) {
               onSubmit={this.calculatedCarbon}
               onError={log("errors")} 
           /> 
-          <h4>
+          <h4 className="calculator-message">
            {this.state.showMessage ? `Hello ${this.state.name} the clothing you bought this year created ${Math.round(this.state.carbon)} KG of C02 and used ${this.state.water} Litres of water in production. This amount of C02 would take 1 tree ${Math.round(this.state.carbon/21)} years to offset.` : ''}
           </h4>
           </div>
       </div>
-      <PlantBanner />
-      <Footer />
       </Fragment>
     );
   }

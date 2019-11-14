@@ -39,7 +39,8 @@
 .Photos:hover .fact{
     visibility: visible;
     color: #ffffff;
-
+    background-color: #272727;
+    opacity: 0.75;
 }
 
 @media (max-width: 600px) {
@@ -81,30 +82,6 @@
     width: 200px;
 }
 
-.jumper:hover {
-    width: 200px;
-    background-color: #272727;
-    opacity: 0.25
-}
-
-.dress:hover {
-    width: 200px;
-    background-color: #272727;
-    opacity: 0.25
-}
-
-.trainer:hover {
-    width: 200px;
-    background-color: #272727;
-    opacity: 0.25
-}
-
-.jeans:hover {
-    width: 200px;
-    background-color: #272727;
-    opacity: 0.25
-}
-
 .caption {
     display: flex;
     justify-content: space-between;
@@ -132,6 +109,8 @@
     padding: 10px;
     z-index: 2;
     position: absolute;
-    top: 10px;
-    width: 180px;
+    width: 200px;
+    height: 100%;
+    top: 0;
+    text-align: center;
 }

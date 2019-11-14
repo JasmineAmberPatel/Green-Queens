@@ -52,8 +52,8 @@ const NavLinks = styled.ul`
     cursor: pointer;
 
     &:hover {
-      color: #fdcb6e;
-      border-bottom: 1px solid #fdcb6e;
+      color: #272727;
+      border-bottom: 1px solid #ffffff;
     }
   }
 `;
