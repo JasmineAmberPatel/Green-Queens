@@ -71,7 +71,7 @@ class PlantTree extends Component {
 			);
 		}
 		return (
-			<li key={project.id} className="lista_project">
+			<ul key={project.id} className="lista_project">
 				<button
 					className="button_project"
 					onClick={() =>
@@ -81,37 +81,37 @@ class PlantTree extends Component {
 				>
 					{project.name}
 				</button>
-			</li>
+			</ul>
 		);
 	};
 
 	renderCertificate() {
-		if (this.state.certificate) {
-			return (
-				<div>
-					<button href={this.state.certificate.url}>Download certificate</button>
-				</div>
-			);
-		}
-		return null;
+		//if (this.state.certificate) {href={this.state.certificate.url}>
+		return (
+			<div>
+				<button className="button_certyficate">Download certificate</button>
+			</div>
+		);
+		//	}
+		//return null;
 	}
 
 	render() {
 		return (
 			<div className="Plant-a-Tree">
-				<div className="img_left">
-					<img
-						className="page-leaves-left"
-						src={require('../img/page-leaves-left/page-leaves-left.svg')}
-						alt="leaves-left"
-					/>
-					<img
-						className="page-tree-left"
-						src={require('../img/page-tree-left/page-tree-left.svg')}
-						alt="tree-left"
-					/>
-				</div>
 				<div className="container">
+					<div className="img_left">
+						<img
+							className="page-leaves-left"
+							src={require('../img/page-leaves-left/page-leaves-left.svg')}
+							alt="leaves-left"
+						/>
+						<img
+							className="page-tree-left"
+							src={require('../img/page-tree-left/page-tree-left.svg')}
+							alt="tree-left"
+						/>
+					</div>
 					<div className="text">
 						<div className="I">Lorem ipsum dolor sit amet, consectetur.</div>
 						<div className="II">Lorem ipsum dolor sit amet, consectetur adipiscing elit, a. . </div>
@@ -129,12 +129,10 @@ class PlantTree extends Component {
 								<li>{this.state.projects.map(this.renderProject)}</li>
 							</div>
 
-							<div className="qwe">
-								{this.renderCertificate()}
-								<button onClick={this.onClick} className="ButtonPaT">
-									<p className="Plant-a-tree">Plant a Tree</p>
-								</button>
-							</div>
+							<button onClick={this.onClick} className="ButtonPaT">
+								<p className="Plant-a-tree">Plant a Tree</p>
+							</button>
+							<div className="certificate_div">{this.renderCertificate()}</div>
 						</div>
 					</div>
 					<div className="img_right">
@@ -151,7 +149,6 @@ class PlantTree extends Component {
 						/>
 					</div>
 				</div>
-				);
 			</div>
 		);
 	}

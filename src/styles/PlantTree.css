@@ -1,20 +1,9 @@
-.Plant-a-Tree {
+/* .Plant-a-Tree {
 	display: flex;
 	flex: auto;
-}
-@media (max-width: 600px) {
-	.container {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-	}
-	.api {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-	}
-}
-.img {
+} */
+
+/* .img {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -22,18 +11,12 @@
 	flex-flow: column;
 }
 
-#flexbox {
-	display: flex;
-	padding: 1em;
-	font-size: 1.3em;
-	background-color: #7dcde8;
-}
 .text {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-end;
-}
+} */
 
 .container {
 	display: flex;
@@ -44,16 +27,14 @@
 .api {
 	display: flex;
 	flex-direction: inherit;
-	border-radius: 8px;
+	border-radius: 15px;
 	background-color: #f5f5f5;
 	padding-left: 100px;
-	padding-right: 200px;
 	margin: 100px;
-	margin-right: 80px;
 }
 .I {
+	word-wrap: break-word;
 	margin-top: 125px;
-
 	font-family: Montserrat;
 	font-size: 40px;
 	font-weight: bold;
@@ -85,7 +66,7 @@
 	line-height: normal;
 	letter-spacing: normal;
 	color: #272727;
-	margin-right: 125px;
+	margin-left: 60px;
 }
 .lista_project {
 	font-family: Montserrat;
@@ -105,10 +86,19 @@
 	background-color: #2ac653;
 }
 .button_certyficate {
-	width: 138px;
-	height: 20;
+	display: flex;
+	height: 30px;
 	border-radius: 45px;
 	background-color: #e66510;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
 }
 .projects {
 	list-style-type: none;
@@ -123,12 +113,16 @@
 	flex-direction: column;
 	justify-content: space-evenly;
 }
-
+.projects {
+	margin-right: 75px;
+	display: flex;
+}
 .ButtonPaT {
 	width: 192px;
 	height: 56px;
 	border-radius: 32.5px;
 	background-color: #2ac653;
+	margin-left: 75px;
 }
 .Plant-a-tree {
 	font-family: Montserrat;
@@ -142,10 +136,10 @@
 	color: #ffffff;
 }
 .img_left {
+	margin-bottom: -150px;
 	display: flex;
 }
 .img_right {
-	padding-left: 0;
 	display: flex;
 }
 .page-leaves-left {
@@ -154,5 +148,5 @@
 	position: absolute;
 }
 .page-leaves-right {
-	position: absolute;
+	position: inherit;
 }

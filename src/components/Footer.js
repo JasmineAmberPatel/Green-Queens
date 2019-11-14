@@ -18,17 +18,16 @@ class Footer extends React.Component {
 	render() {
 		return (
 			<div className="Footer">
-				<img className="logo" src={require('../img/logo.png')} alt="logo" />
-				<div className="footerList">
-					<div className="Help-Information ">
-						{' '}
-						HELP &#38; INFORMATION
-						<div className="lorem">
-							<p className="Lorem-ipsum-dolor-si">Lorem ipsum dolor sit amet.</p>
-							<p className="Lorem-ipsum-dolor-si">Lorem ipsum dolor sit amet.</p>
-							<p className="Lorem-ipsum-dolor-si">Lorem ipsum dolor sit amet.</p>
-						</div>
+				<div className="Help-Information ">
+					<img className="logo" src={require('../img/logo.png')} alt="logo" />
+					{/* HELP &#38; INFORMATION
+					<div className="lorem">
+						<p className="Lorem-ipsum-dolor-si">Lorem ipsum dolor sit amet.</p>
+						<p className="Lorem-ipsum-dolor-si">Lorem ipsum dolor sit amet.</p>
+						<p className="Lorem-ipsum-dolor-si">Lorem ipsum dolor sit amet.</p>
 					</div>
+				</div>
+				<div className="footerList">
 					<div className="About-GQ">
 						{' '}
 						ABOUT GQ
@@ -54,7 +53,7 @@ class Footer extends React.Component {
 								/>
 							</form>
 						</div>
-					</div>
+					</div> */}
 				</div>
 				<div className="bottom">
 					<div className="Information">Information</div>

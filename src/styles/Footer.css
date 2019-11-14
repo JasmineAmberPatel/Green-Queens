@@ -4,31 +4,28 @@
 	bottom: 0;
 	left: 0;
 	clear: both;
-	height: auto;
-	width: 100%;
-	display: block;
+	display: flex;
 	background-color: #f5f5f5;
 }
 @media (max-width: 800px) {
 	.Footer {
 		flex-direction: column;
+		justify-content: center;
 	}
 }
 
 .footerList {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	margin-top: 20px;
 }
 
 .logo {
-	margin-left: 419px;
+	margin-left: 291px;
 	margin-top: 60px;
 }
 
 .Help-Information {
-	padding-left: 419px;
-	padding-top: 61px;
-
 	font-family: Montserrat;
 	font-size: 20px;
 	font-weight: bold;
@@ -39,9 +36,6 @@
 	color: #272727;
 }
 .About-GQ {
-	padding-left: 35px;
-	padding-top: 61px;
-
 	font-family: Montserrat;
 	font-size: 20px;
 	font-weight: bold;
@@ -53,8 +47,6 @@
 }
 
 .Subscribe {
-	padding-left: 9px;
-	padding-top: 61px;
 	font-family: Montserrat;
 	font-size: 20px;
 	font-weight: bold;
@@ -129,5 +121,5 @@
 	line-height: normal;
 	letter-spacing: normal;
 	color: #272727;
-	text-align: ;
+	text-align: end;
 }

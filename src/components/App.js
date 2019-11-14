@@ -13,7 +13,7 @@ import Questions from './Questions.js';
 const App = () => (
 	<div className="App">
 		<BrowserRouter>
-			{/* <NavBar /> */}
+			<NavBar />
 			<Switch>
 				<Route exact path="/Homepage" component={HomePage} />
 				<Route exact path="/Questions" component={Questions} />
