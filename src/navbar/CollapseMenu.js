@@ -29,8 +29,8 @@ const CollapseMenu = (props) => {
 export default CollapseMenu;
 
 const CollapseWrapper = styled(animated.div)`
-  background: #2ac653;
-  position: fixed;
+  background: #f5f5f5;
+  position: sticky;
   top: 4.5rem;
   left: 0;
   right: 0;
@@ -38,7 +38,7 @@ const CollapseWrapper = styled(animated.div)`
 
 const NavLinks = styled.ul`
   list-style-type: none;
-  padding: 2rem 1rem 2rem 2rem;
+  padding: 2rem 1rem 3rem 2rem;
 
   & li {
     transition: all 300ms linear 0s;
