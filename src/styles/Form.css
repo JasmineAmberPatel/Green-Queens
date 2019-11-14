@@ -7,12 +7,19 @@
     line-height: normal;
     letter-spacing: normal;
     color: #272727;
-    padding: 40px;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding: 10px;
+}
+
+.rectangle{
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .calculator-box__heading{
@@ -28,9 +35,10 @@
     color: #272727;
 }
 
+
 .btn {
-    width: 184px;
-    height: 57.9px;
+    width: 60vw;
+    height: 30px;
     border-radius: 32.5px;
     background-color: #2ac653;
     font-family: Montserrat;
@@ -40,7 +48,21 @@
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: center;
     color: #ffffff;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.calculator-message{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.colour-message{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2ac653;
 }

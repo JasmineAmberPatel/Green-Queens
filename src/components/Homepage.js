@@ -5,8 +5,6 @@ import uiSchema from './UiSchema';
 import calculateCarbon from './CarbonCalculator';
 import calculateWater from './WaterCalculator';
 import ImageCard from './ImageCard';
-import PlantBanner from './PlantBanner';
-import Footer from './Footer';
 
 const log = (type) => console.log.bind(console, type);
 
@@ -27,6 +25,7 @@ class HomePage extends React.Component {
       showMessage: false,
     };
     this.calculatedCarbon = this.calculatedCarbon.bind(this);
+    
   }
 
 calculatedCarbon( data) {
@@ -35,6 +34,17 @@ calculatedCarbon( data) {
   const water = calculateWater(jeans, woolJumper, polyesterDress, cottonTShirt, cottonShirts, polyesterCoat, rubberShoes)
   this.setState({ showMessage: true, name, carbon, water, jeans, woolJumper, polyesterDress, cottonTShirt, cottonShirts, polyesterCoat, rubberShoes });
 }
+
+renderFancyMessage() {
+  return (
+    <Fragment>
+      {`Hello ${this.state.name} the clothing you bought this year created`} <span className="colour-message">{Math.round(this.state.carbon)}</span>{` KG of C02 
+      and used`} <span className="colour-message">{this.state.water}</span> {`Litres of water in production. `}
+      {`This amount of C02 would take 1 tree `}<span className="colour-message">{Math.round(this.state.carbon/21)}</span>{` years to offset.`}
+    </Fragment>
+  )
+}
+
   render() {
     return (
       <Fragment>
@@ -51,7 +61,7 @@ calculatedCarbon( data) {
               onError={log("errors")} 
           /> 
           <h4 className="calculator-message">
-           {this.state.showMessage ? `Hello ${this.state.name} the clothing you bought this year created ${Math.round(this.state.carbon)} KG of C02 and used ${this.state.water} Litres of water in production. This amount of C02 would take 1 tree ${Math.round(this.state.carbon/21)} years to offset.` : ''}
+           {this.state.showMessage ? this.renderFancyMessage() : ''}
           </h4>
           </div>
       </div>

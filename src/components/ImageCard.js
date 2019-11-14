@@ -29,6 +29,7 @@ const Photos = () => {
                     <h4 className="caption">Jeans<br className="space"/><h4 className="heart">♥</h4></h4>
                 </div>
             </div>
+            <h3 className="Photo-cards-facts">Visit the facts page to learn more.</h3>
         </div>
     )
 }

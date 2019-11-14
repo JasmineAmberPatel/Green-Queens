@@ -114,3 +114,18 @@
     top: 0;
     text-align: center;
 }
+
+.Photo-cards-facts{
+    background-color: #2ac653;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
