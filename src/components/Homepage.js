@@ -6,6 +6,7 @@ import calculateCarbon from './CarbonCalculator';
 import calculateWater from './WaterCalculator';
 import ImageCard from './ImageCard';
 import PlantBanner from './PlantBanner';
+import Footer from './Footer';
 
 const log = (type) => console.log.bind(console, type);
 
@@ -55,6 +56,7 @@ calculatedCarbon( data) {
           </div>
       </div>
       <PlantBanner />
+      <Footer />
       </Fragment>
     );
   }
