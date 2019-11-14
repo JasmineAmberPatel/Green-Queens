@@ -5,6 +5,7 @@ import uiSchema from './UiSchema';
 import calculateCarbon from './CarbonCalculator';
 import calculateWater from './WaterCalculator';
 import ImageCard from './ImageCard';
+import PlantBanner from './PlantBanner';
 
 const log = (type) => console.log.bind(console, type);
 
@@ -39,7 +40,7 @@ calculatedCarbon( data) {
         <ImageCard />
         <br/>
           <div className="calculator-box">
-          <h2 className="calculator-box__heading">Calculate the environmental cost of your clothes</h2>
+          <h2 className="calculator-box__heading">Calculate the environmental cost of your clothes.</h2>
         <br />
           <div className="calculator-box__calculator"> 
         <Form className="rectangle"
@@ -53,6 +54,7 @@ calculatedCarbon( data) {
           </h4>
           </div>
       </div>
+      <PlantBanner />
       </Fragment>
     );
   }

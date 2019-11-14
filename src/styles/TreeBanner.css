@@ -1,0 +1,86 @@
+.Banner-Green-rectangle{
+    height: 30vh;
+    width: 100%;
+    background-color: #2ac653;
+    display: flex;
+    position: relative;
+    z-index: -5;
+}
+
+.Banner-title{
+    font-family: Montserrat;
+    font-size: 5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.Banner-text-all{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+}
+
+.Banner-text{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    visibility: visible;
+}
+
+.Banner-button{
+    margin-top: 10px;
+    width: 150px;
+    height: 56px;
+    border-radius: 32.5px;
+    background-color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2ac653;
+}
+
+.cta-tree-right{
+    height: 30vh;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.cta-tree-left{
+    height: 30vh;
+    justify-content: flex-end;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .Banner-text{
+        display: none;
+    }
+    .Banner-title{
+        font-size: 3rem; 
+
+    }
+    .Banner-Green-rectangle{
+        display: inline-flex;
+        justify-content: space-evenly;
+        overflow: hidden;
+    }
+}    
