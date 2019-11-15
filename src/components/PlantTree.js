@@ -100,12 +100,7 @@ class PlantTree extends Component {
 		return (
 			<div className="Plant-a-Tree">
 				<div className="container">
-					<div className="img_left">
-						<img
-							className="page-leaves-left"
-							src={require('../img/page-leaves-left/page-leaves-left.svg')}
-							alt="leaves-left"
-						/>
+					<div className="tree-images">
 						<img
 							className="page-tree-left"
 							src={require('../img/page-tree-left/page-tree-left.svg')}
@@ -117,11 +112,12 @@ class PlantTree extends Component {
 						<div className="II">Explore our network of global reforestation projects by clicking the links below. Select your favorite forests, and input how many trees you would like to plant. You can then download your certificate.</div>
 						<ul className="list">
 							<li>By absorbing CO2 from the atmosphere, trees help to combat climate change, help to improve soils and prevent flooding and erosion.</li>
+                            <br/>
 							<li>Trees help clean the air we breathe, filter the water we drink, and provide habitat to over 80% of the world's terrestrial biodiversity.</li>
+                            <br/>
 							<li>Forests provide jobs to over 1.6 billion people, absorb harmful carbon from the atmosphere, and are key ingredients in 25% of all medicines.</li>
 						</ul>
 					</div>
-
 					<div className="api">
 						<div className="RectangleAPI">
 							<div className="projects">
@@ -135,12 +131,6 @@ class PlantTree extends Component {
 						</div>
 					</div>
 					<div className="img_right">
-						<img
-							className="page-leaves-right "
-							src={require('../img/page-leaves-right/page-leaves-right.svg')}
-							alt="leaves-right"
-						/>
-
 						<img
 							className="page-tree-right"
 							src={require('../img/page-tree-right/page-tree-right.svg')}
