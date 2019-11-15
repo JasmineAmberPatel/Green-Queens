@@ -5,6 +5,7 @@ import uiSchema from './UiSchema';
 import calculateCarbon from './CarbonCalculator';
 import calculateWater from './WaterCalculator';
 import ImageCard from './ImageCard';
+import PlantBanner from './PlantBanner';
 
 const log = (type) => console.log.bind(console, type);
 
@@ -65,6 +66,7 @@ renderFancyMessage() {
           </h4>
           </div>
       </div>
+      <PlantBanner />
       </Fragment>
     );
   }

@@ -1,178 +1,146 @@
-.Plant-a-Tree {
-  height: auto;
-  max-width: 100%;
-  display:block;
-  }
-  .RectangleAPI {
-    width: 524px;
-    height: 545px;
-    border-radius: 8px;
-    background-color: #f5f5f5;
-    position: fixed;
-    top:205px;
-    left: 978px;
-  }
-  .I {
-    width: 524px;
-    height: 165px;
-    font-family: Montserrat;
-    font-size: 45px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #272727;
-    position: fixed;
-    top:200px;
-    left: 421px;
-  }
-  .I .text-style-1 {
-    color: #2ac653;
-  }
-  .II {
-    width: 513px;
-    height: 88px;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #272727;
-    position: fixed;
-    top:402px;
-    left: 421px;
-  }
+.container {
+	display: flex;
+	padding: 0;
+	align-content: center;
+	text-align: justify;
+}
+.api {
+	display: flex;
+	flex-direction: inherit;
+	border-radius: 15px;
+	background-color: #f5f5f5;
+	padding-left: 100px;
+	margin: 100px;
+}
+.I {
+	word-wrap: break-word;
+	margin-top: 125px;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #272727;
+}
+.II {
+	margin: 50px;
+	font-family: Montserrat;
+	font-size: 25px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #272727;
+}
 
-  .list{
-    list-style-type:disc;
-  }
-  .III {
-    width: 452px;
-    height: 25px;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #272727;
-    position: fixed;
-    top:527px;
-    left: 482px;
-  }
+.list {
+	list-style-type: square;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #272727;
+	margin-left: 60px;
+}
+.lista_project {
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #272727;
+	margin-right: 125px;
+}
+.button_project {
+	width: 138px;
+	height: 35px;
+	border-radius: 32.5px;
+	background-color: #2ac653;
+}
+.button_certyficate {
+	display: flex;
+	height: 30px;
+	border-radius: 45px;
+	background-color: #e66510;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+.projects {
+	list-style-type: none;
+}
+.input {
+	size: 1;
+	width: 50px;
+	resize: a;
+}
+.RectangleAPI {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.projects {
+	margin-right: 75px;
+	display: flex;
+}
+.ButtonPaT {
+	width: 192px;
+	height: 56px;
+	border-radius: 32.5px;
+	background-color: #2ac653;
+	margin-left: 75px;
+}
+.Plant-a-tree {
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+.img_left {
+	margin-bottom: -150px;
+	display: flex;
+}
+.img_right {
+	display: flex;
+}
+.page-leaves-left {
+	transform: rotate(-40deg);
+	padding-left: 199px;
+	position: absolute;
+}
+.page-leaves-right {
+	position: inherit;
+}
 
-  .IV {
-    width: 463px;
-    height: 44px;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #272727;
-    position: fixed;
-    top:572px;
-    left: 482px;
+@media (max-width: 600px) {
+  .container {
+      flex-direction: column;
+      justify-content: flex-start;
   }
-  .V {
-    width: 452px;
-    height: 25px;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #272727;
-    position: fixed;
-    top:644px    ;
-    left: 482px;
+  .img_left {
+      display: none;
   }
-  .VI {
-    width: 463px;
-    height: 44px;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #272727;
-    position: fixed;
-    top:689px;
-    left: 482px;
+  
+  .img_right {
+      display: none;
   }
-  .ButtonPaT {
-    width: 192px;
-    height: 56px;
-    border-radius: 32.5px;
-    background-color: #2ac653;
-    position: fixed;
-    top:672px;
-    left: 1127px
-    ;
-  }
-  .Plant-a-tree {
-    width: 168px;
-    height: 18px;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    position: fixed;
-  top:691px;
-  left: 1139px;
-  }
-  .page-leaves-left {
-    height: auto;
-    max-width: 100%;
-    display:block;
-    object-fit: contain;
-    transform: rotate(-40deg);
-    position: fixed;
-    top:155px;
-    left: 199px;
-  }
-  .page-leaves-right {
-    height: auto;
-    max-width: 100%;
-    display:block;
-    object-fit: contain;
-    position: fixed;
-    top:202px;
-    left: 1483px;
-  }
-  .page-tree-right {
-    position: absolute;
-    bottom:0;
-    right:240px;
-    top: 219px;
-    height: auto;
-    max-width: 100%;
-    display:block;
-    object-fit: contain;
-  }
-  .page-tree-left {
-
-    height: auto;
-max-width: 100%;
-display:block;
-    
-    object-fit: contain;
-    position: fixed;
-    top:372px;
-    left: 0;
-  }
+}

@@ -1,6 +1,7 @@
 import React, { useState, Fragment } from 'react';
 import FAQ from './FAQ';
 import '../styles/Facts.css';
+import PlantBanner from './PlantBanner';
 
 function Question () {
   const [faqs, setFaqs] = useState([
@@ -8,6 +9,11 @@ function Question () {
       question: 'In Britain more than 300,000 tonnes of clothing end up in landfill every year.',
       answer: <a style={{display: "table-cell"}} href="http://www.wrap.org.uk/content/clothing-waste-prevention" target="_blank">Read more here</a>,
       open: true
+    },
+    {
+      question: 'How much clothing is bought in the UK each minute?',
+      answer: <a style={{display: "table-cell"}} href="http://www.wrap.org.uk/content/clothing-waste-prevention" target="_blank">Read more here</a>,
+      open: false
     },
     {
       question: 'How much clothing is bought in the UK each minute?',
@@ -72,6 +78,7 @@ function Question () {
           <FAQ faq={faq} index={i} toggleFAQ={toggleFAQ} />
         ))}
       </div>
+      <PlantBanner />
     </Fragment>  
   );
 }

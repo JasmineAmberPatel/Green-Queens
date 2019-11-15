@@ -10,7 +10,6 @@ import '../styles/Form.css'
 import HomePage from './Homepage.js';
 import Questions from './Questions.js';
 import GlobalStyle from '../Nav-Styles/Global';
-import PlantBanner from '../components/PlantBanner';
 
 class App extends Component {
   state = {
@@ -35,7 +34,6 @@ render() {
           <Route exact path="/Questions" component={Questions} /> 
           <Route exact path="/PlantTree" component={PlantTree} />
         </Switch>
-        <PlantBanner />
         <Footer />
       </BrowserRouter>
     </div>
