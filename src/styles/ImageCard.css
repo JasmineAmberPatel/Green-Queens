@@ -25,17 +25,17 @@
 .Photo-cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     top: 60vph;
 }
 .Photos {
     position: relative;
+    padding: 5px;
 }
 
 .Photos:hover {
     background-color: #272727;
     z-index: 1;
-
 }
 
 .Photos:hover .fact{
@@ -56,6 +56,10 @@
     }
     
     .dress {
+        width: 50vw;
+    }
+
+    .shirt {
         width: 50vw;
     }
     
@@ -81,6 +85,10 @@
 }
 
 .jeans {
+    width: 200px;
+}
+
+.shirt {
     width: 200px;
 }
 

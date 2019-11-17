@@ -14,6 +14,11 @@ const Photos = () => {
                     <h4 className="caption">Jumpers<br className="space"/><h4 className="heart">♥</h4></h4>
                 </div>
                 <div className="Photos">
+                    <img className="shirt" src={require('../img/Shirt.jpg')} alt="shirt"></img>
+                    <h4 className="fact">A single t-shirt takes 2,700 liters of water to make. The same amount of water an average person drinks over the course of 900 days.</h4>
+                    <h4 className="caption">Shirts<br className="space"/><h4 className="heart">♥</h4></h4>
+                </div>
+                <div className="Photos">
                     <img className="dress" src={require('../img/dress.jpg')} alt="dress"></img>
                     <h4 className="fact">Synthetic fibres from clothing make up 75% of microplastics in the ocean.</h4>
                     <h4 className="caption">Dresses<br className="space"/><h4 className="heart">♥</h4></h4>
