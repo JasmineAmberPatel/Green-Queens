@@ -1,16 +1,13 @@
 .Footer {
-	position: relative;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	clear: both;
+	position: inherit;
+	width: initial;
 	display: flex;
 	background-color: #f5f5f5;
+	justify-content: space-between;
 }
 @media (max-width: 800px) {
 	.Footer {
-		flex-direction: column;
-		justify-content: center;
+		display: inline-flexbox;
 	}
 }
 
@@ -20,98 +17,6 @@
 	margin-top: 20px;
 }
 
-.logo {
-	margin-left: 291px;
-	margin-top: 60px;
-}
-
-.Help-Information {
-	font-family: Montserrat;
-	font-size: 20px;
-	font-weight: bold;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #272727;
-}
-.About-GQ {
-	font-family: Montserrat;
-	font-size: 20px;
-	font-weight: bold;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #272727;
-}
-
-.Subscribe {
-	font-family: Montserrat;
-	font-size: 20px;
-	font-weight: bold;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #272727;
-}
-
-.Lorem-ipsum-dolor-si {
-	font-family: Montserrat;
-	font-size: 16px;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #272727;
-}
-.Lorem-ipsum-dolor-si-Copy {
-	font-family: Montserrat;
-	font-size: 16px;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #272727;
-}
-.Lorem-ipsum-dolor-si-Copy-2 {
-	font-family: Montserrat;
-	font-size: 16px;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #272727;
-}
-.Lorem-ipsum-dolor-si-Copy-3 {
-	font-family: Montserrat;
-	font-size: 16px;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #272727;
-}
-.Lorem-ipsum-dolor {
-	font-family: Montserrat;
-	font-size: 16px;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #272727;
-}
-
-.sub-e-mail {
-	border-radius: 24px;
-	border: solid 2px #272727;
-}
 .bottom {
 	font-family: Montserrat;
 	font-size: 18px;

@@ -85,15 +85,20 @@ class PlantTree extends Component {
 		);
 	};
 
+	// openClick =() => {
+	// 	window.open(href= {this.state.certificate.url})
+	// }
 	renderCertificate() {
-		//if (this.state.certificate) {href={this.state.certificate.url}>
-		return (
-			<div>
-				<button className="button_certyficate">Download certificate</button>
-			</div>
-		);
-		//	}
-		//return null;
+		if (this.state.certificate) {
+			return (
+				<div>
+					<a style={{ display: 'table-cell' }} href={this.state.certificate.url} target="_blank">
+						Download certificate
+					</a>
+				</div>
+			);
+		}
+		return null;
 	}
 
 	render() {
@@ -124,30 +129,28 @@ class PlantTree extends Component {
 					</div>
 
 					<div className="api">
-						<div className="RectangleAPI">
-							<div className="projects">
-								<li>{this.state.projects.map(this.renderProject)}</li>
-							</div>
-
-							<button onClick={this.onClick} className="ButtonPaT">
-								<p className="Plant-a-tree">Plant a Tree</p>
-							</button>
-							<div className="certificate_div">{this.renderCertificate()}</div>
+						<div className="projects">
+							<li>{this.state.projects.map(this.renderProject)}</li>
 						</div>
-					</div>
-					<div className="img_right">
-						<img
-							className="page-leaves-right "
-							src={require('../img/page-leaves-right/page-leaves-right.svg')}
-							alt="leaves-right"
-						/>
 
-						<img
-							className="page-tree-right"
-							src={require('../img/page-tree-right/page-tree-right.svg')}
-							alt="tree-right"
-						/>
+						<button onClick={this.onClick} className="ButtonPaT">
+							<p className="Plant-a-tree">Plant a Tree</p>
+						</button>
+						<div className="certificate_div">{this.renderCertificate()}</div>
 					</div>
+				</div>
+				<div className="img_right">
+					<img
+						className="page-leaves-right "
+						src={require('../img/page-leaves-right/page-leaves-right.svg')}
+						alt="leaves-right"
+					/>
+
+					<img
+						className="page-tree-right"
+						src={require('../img/page-tree-right/page-tree-right.svg')}
+						alt="tree-right"
+					/>
 				</div>
 			</div>
 		);

@@ -9,11 +9,12 @@ import { BrowserRouter } from 'react-router-dom';
 import '../styles/Form.css';
 import HomePage from './Homepage.js';
 import Questions from './Questions.js';
+import '../styles/App.css';
 
 const App = () => (
 	<div className="App">
 		<BrowserRouter>
-			<NavBar />
+			{/* <NavBar /> */}
 			<Switch>
 				<Route exact path="/Homepage" component={HomePage} />
 				<Route exact path="/Questions" component={Questions} />
