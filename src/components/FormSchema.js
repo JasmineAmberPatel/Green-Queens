@@ -52,7 +52,6 @@ const schema = {
       id:"rubberShoes"
     },
   }
-};
-
+}
 export default schema;
 
