@@ -58,7 +58,7 @@ class PlantTree extends Component {
 	renderProject = (project) => {
 		if (project.id === this.state.selected_project_id) {
 			return (
-				<li className="lista_project">
+				<ul className="lista_project" key={project}>
 					<button className="button_project">{project.name}</button>
 					<input
 						className="input"
@@ -68,7 +68,7 @@ class PlantTree extends Component {
 								trees: event.target.value
 							})}
 					/>
-				</li>
+				</ul>
 			);
 		}
 		return (
