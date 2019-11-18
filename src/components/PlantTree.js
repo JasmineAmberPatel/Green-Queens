@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import '../styles/PlantTree.css';
 import axios from 'axios';
 import Allprojects from '../projects.json';
+import Reforestation from '../components/reforestationProjects';
 
 class PlantTree extends Component {
 	constructor() {
@@ -103,23 +104,24 @@ class PlantTree extends Component {
 
 	render() {
 		return (
+			<Fragment>
 			<div className="Plant-a-Tree">
 				<div className="container">
 					<div className="img_left">
 						<img
 							className="page-leaves-left"
-							src={require('../img/page-leaves-left/page-leaves-left.svg')}
+							src={require('../img/page-leaves-left/page-leaves-left.png')}
 							alt="leaves-left"
 						/>
 						<img
 							className="page-tree-left"
-							src={require('../img/page-tree-left/page-tree-left.svg')}
+							src={require('../img/page-tree-left/page-tree-left.png')}
 							alt="tree-left"
 						/>
 					</div>
 					<div className="text">
 						<div className="I">Plant a tree!</div>
-						<div className="II">Explore our network of global reforestation projects below. Select your favorite forests, and input how many trees you would like to plant.</div>
+						<div className="II">Explore our network of global reforestation projects below. Select your favorite forests, and input how many trees you would like to plant to offset your carbon footprint.</div>
 						<ul className="list">
 							<li>By absorbing CO2 from the atmosphere, trees help to combat climate change, help to improve soils and prevent flooding and erosion.</li>
 							<br/>
@@ -141,17 +143,22 @@ class PlantTree extends Component {
 				<div className="img_right">
 					<img
 						className="page-leaves-right "
-						src={require('../img/page-leaves-right/page-leaves-right.svg')}
+						src={require('../img/page-leaves-right/page-leaves-right.png')}
 						alt="leaves-right"
 					/>
 
 					<img
 						className="page-tree-right"
-						src={require('../img/page-tree-right/page-tree-right.svg')}
+						src={require('../img/page-tree-right/page-tree-right.png')}
 						alt="tree-right"
 					/>
 				</div>
-			</div>
+				</div>
+				<div>
+                <h4 className="Photo-cards-facts">Scroll right to browse all reforestation projects</h4>
+            </div>
+				<Reforestation />
+			</Fragment>
 		);
 	}
 }

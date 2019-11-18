@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from '../navbar/NavBar.js';
-import PlantTree from '../components/PlantTree'
-import Footer from '../components/Footer';
+import PlantTree from './PlantTree'
+import Footer from './Footer';
 import '../styles/Footer.css'
 import '../styles/PlantTree.css'
 import { Switch, Route } from 'react-router';
