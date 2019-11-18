@@ -49,11 +49,12 @@ const NavLinks = styled.ul`
     line-height: 2;
     color: #272727;
     text-decoration: none;
+    font-weight: bold;
+ 
     cursor: pointer;
 
     &:hover {
-      color: #272727;
-      border-bottom: 1px solid #ffffff;
+      color: #2ac653;
     }
   }
 `;

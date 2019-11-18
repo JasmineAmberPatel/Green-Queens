@@ -72,7 +72,7 @@ const Navbar = (props) => {
   
     & a {
       color: #272727;
-      font-weight: 600;
+      font-weight: bold;
       border-bottom: 1px solid transparent;
       margin: 0 1.5rem;
       transition: all 300ms linear 0s;
