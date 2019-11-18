@@ -33,9 +33,14 @@
     line-height: normal;
     letter-spacing: normal;
     color: #272727;
-    padding: 5px;
+    padding: 10px;
 }
 
 .Project{
+    padding: 15px;
+}
+
+.Project-link{
     padding: 10px;
+    color: #2ac653;
 }

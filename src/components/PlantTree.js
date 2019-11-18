@@ -123,9 +123,9 @@ class PlantTree extends Component {
 						<div className="I">Plant a tree!</div>
 						<div className="II">Explore our network of global reforestation projects below. Select your favorite forests, and input how many trees you would like to plant to offset your carbon footprint.</div>
 						<ul className="list">
-							<li>By absorbing CO2 from the atmosphere, trees help to combat climate change, help to improve soils and prevent flooding and erosion.</li>
+							<h4>By absorbing CO2 from the atmosphere, trees help to combat climate change, help to improve soils and prevent flooding and erosion.</h4>
 							<br/>
-							<li>Trees help clean the air we breathe, filter the water we drink, and provide habitat to over 80% of the world's terrestrial biodiversity.</li>
+							<h4>Trees help clean the air we breathe, filter the water we drink, and provide habitat to over 80% of the world's terrestrial biodiversity.</h4>
 						</ul>
 					</div>
 
