@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/TreeBanner.css';
-import {  Link } from 'react-router-dom';
+import { Route } from 'react-router';
+import PlantTree from './PlantTree';
+import { BrowserRouter } from 'react-router-dom';
 
 const plantBanner = () => {
     return (
@@ -9,7 +11,6 @@ const plantBanner = () => {
             <div className="Banner-text-all">
                 <h2 className="Banner-title">Plant Your Own Tree</h2>
                 <h3 className="Banner-text">Reduce your carbon input by planting a tree! By absorbing CO2 from the atmosphere, trees help to combat climate change, help to improve soils and prevent flooding and erosion.</h3>
-                <Link className="Banner-button" to="/PlantTree">Plant a Tree</Link>
             </div>
             <img className="cta-tree-right" src={require('../img/Illustrations/CTA/PNG/cta-tree-right.png')} alt="leaves"></img>
         </div>
