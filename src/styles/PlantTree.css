@@ -2,6 +2,20 @@
   display: flex;
 }
 
+.Banner-subheading-tree {
+	text-align: start;
+	font-family: Montserrat;
+  	font-size: 18px;
+  	font-weight: bold;
+  	font-stretch: normal;
+  	font-style: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #272727;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .container {
 	display: flex;
 	align-content: flex-start;

@@ -4,7 +4,6 @@
     background-color: #2ac653;
     display: flex;
     position: relative;
-    z-index: -5;
 }
 
 .Banner-title{

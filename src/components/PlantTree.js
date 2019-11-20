@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import '../styles/PlantTree.css';
+import '../styles/Facts.css';
 import axios from 'axios';
 import Allprojects from '../projects.json';
 import Reforestation from '../components/reforestationProjects';
@@ -120,8 +121,8 @@ class PlantTree extends Component {
 						/>
 					</div>
 					<div className="text">
-						<div className="I">Plant a tree!</div>
-						<div className="II">Explore our network of global reforestation projects below. Select your favorite forests, and input how many trees you would like to plant to offset your carbon footprint.</div>
+						<div className="Title">Plant a tree!</div>
+						<div className="Banner-subheading-tree">Explore our network of global reforestation projects below. Select your favorite forests, and input how many trees you would like to plant to offset your carbon footprint.</div>
 						<ul className="list">
 							<h4>By absorbing CO2 from the atmosphere, trees help to combat climate change, help to improve soils and prevent flooding and erosion.</h4>
 							<br/>

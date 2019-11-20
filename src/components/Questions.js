@@ -87,7 +87,7 @@ function Question () {
       <div className="Title-Page">
           <div className="Title-Rectangle">
               <h1 className="Title">Facts.</h1>
-              <h2 className="Banner-text-facts">What is the true impact of the fast fashion industry on our planet? Below you'll find facts and links to enlightening sources.</h2>
+              <h2 className="Banner-subheading">What is the true impact of the fast fashion industry on our planet? Below you'll find facts and links to enlightening sources.</h2>
           </div>
       </div>
       <div className="faqs">
