@@ -30,7 +30,7 @@ render() {
         />
         <GlobalStyle />
         <Switch>
-          <Route exact path="/Homepage" component={HomePage} />
+          <Route exact path="/" component={HomePage} />
           <Route exact path="/Questions" component={Questions} /> 
           <Route exact path="/PlantTree" component={PlantTree} />
         </Switch>
