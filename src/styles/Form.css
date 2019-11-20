@@ -13,6 +13,7 @@
     justify-content: center;
     width: 100%;
     padding: 10px;
+    display: flex;
 }
 
 .rectangle{
@@ -35,8 +36,7 @@
     color: #272727;
 }
 
-
-.btn {
+.btn-info{
     width: 60vw;
     height: 30px;
     border-radius: 32.5px;
@@ -49,14 +49,12 @@
     line-height: normal;
     letter-spacing: normal;
     color: #ffffff;
-    justify-content: space-around;
 }
 
-.calculator-message{
+.calculator-message{    
     padding: 15px;
     font-weight: bold;
     font-size: 18px;
-
 }
 
 .colour-message{
