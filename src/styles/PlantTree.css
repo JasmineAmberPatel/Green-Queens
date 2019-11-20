@@ -33,6 +33,20 @@
 	}
 }
 
+.certificate_div {
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 3em;
+	margin-left: 5em;
+}
+
 .I {
 	font-family: Montserrat;
 	font-size: 40px;
@@ -85,41 +99,43 @@ ul li::before {
 	font-style: normal;
 	line-height: normal;
 	letter-spacing: normal;
-  color: #272727;
+  	color: #272727;
 }
 .button_project {
 	width: 143px;
 	height: 35px;
 	border-radius: 32.5px;
-  background-color: #272727;
-  color: #ffffff;
-  font-weight: bold;
+  	background-color: #272727;
+  	color: #ffffff;
+  	font-weight: bold;
 }
 
 .projects {
-  list-style-type: none;
-  justify-content: center;
-  margin-top: 5em;
+	display: flex;
+  	list-style-type: none;
+  	margin-top: 5em;
+  	margin-left: 5em;
 }
 .input {
 	size: 3;
-	width: 50px;
+	width: 30px;
+	margin: 10px;
+	border-color: #272727;
+	border-bottom-width: 1px;
 }
-.projects {
-	display: flex;
-}
+
 .ButtonPaT {
 	width: 143px;
 	height: 35px;
 	border-radius: 32.5px;
-  color: #ffffff;
-  font-weight: bold;
+  	color: #ffffff;
+  	font-weight: bold;
 	background-color: #2ac653;
-  justify-content: center;
-  margin-bottom: 5em;
-  margin-left: 7em;
-  margin-right: 7em;
-  text-align: center;
+	justify-content: center;
+  	margin-bottom: 12px;
+  	margin-left: 5em;
+  	margin-right: 5em;
+  	text-align: center;
 }
 .Plant-a-tree {
 	font-family: Montserrat;

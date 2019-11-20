@@ -1,8 +1,5 @@
 import React from 'react';
 import '../styles/TreeBanner.css';
-import { Route } from 'react-router';
-import PlantTree from './PlantTree';
-import { BrowserRouter } from 'react-router-dom';
 
 const plantBanner = () => {
     return (
